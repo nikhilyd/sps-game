@@ -1,0 +1,144 @@
+body{
+
+    background-image: url("spsbackground.png");
+    background-size: cover;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+
+#sps{
+    height: 30vh;
+    background-color: transparent;
+    width: 50vw;
+    display: flex;
+    box-shadow: inset 4px 5px 20px 1px #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 40vh;
+    border-radius: 25px;
+}
+
+#s{
+    height: 17vh;
+    background-color: #0004ff;
+    width: 9vw;
+    border-radius: 50vh;
+    cursor: pointer;
+    background-image: url("stone.png");
+    background-size: cover;
+    display: flex
+    ;
+        align-items: center;
+        justify-content: center;
+
+}
+
+#p{
+
+    height: 17vh;
+    background-color: #00ff7b;
+    width: 9vw;
+    border-radius: 50vh;
+    cursor: pointer;
+    background-image: url("paper.png");
+    background-size: cover;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+
+#s2{
+
+    height: 17vh;
+    background-color: #ffb700;
+    width: 9vw;
+    border-radius: 50vh;
+    cursor: pointer;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("sizr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#stone{
+    color: white;
+    position: fixed;
+    top: 23vh;
+
+}
+#paper{
+    color: white;
+    position: fixed;
+    top: 23vh;    
+}
+#sizrr{
+    color: white;
+    position: fixed;
+    top: 23vh;    
+}
+#score{
+    height: 20vh;
+    width: 50vh;
+    border-radius: 20px;
+    position: fixed;
+    top: 40vh;
+    left: 74vh;
+    box-shadow: 0px 1px 13px violet;
+    display: flex;
+    justify-content: space-around;
+}
+#yourscore{
+color: white;
+/* color: white;
+    box-shadow: 5px 0px 13px navy; */
+    
+ 
+    
+}
+#comscore{
+
+color: white;
+}
+#gamecon{
+    color: white;
+    position: fixed;
+    top: 65vh;
+    right: 53vh;
+    box-shadow: inset 5px 4px 9px 0px cadetblue;
+    border-radius: 20px;
+    width: 70vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+#cat{
+    background-color: transparent;
+    height: 50vh;
+    width: 40vh;
+    position: fixed;
+    top: 40vh;
+    left: 5vh;
+    border-radius: 20px;
+    /* background-image: url("dancingcat.gif"); */
+    background-size: cover;
+}
+#cat2{
+    background-color: transparent;
+    height: 50vh;
+    width: 40vh;
+    position: fixed;
+    top: 40vh;
+    right: 2vh;
+    border-radius: 20px;
+/* background-image: url("dancingcat.gif"); */
+background-size: cover;
+}
